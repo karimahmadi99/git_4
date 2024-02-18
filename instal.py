@@ -7,4 +7,5 @@ class Restoran:
     def run(self):
         log = self.name + " " + self.city + " " + self.what
         return log
-    
+my_restoran = Restoran('gzal', 'tehran', 'open')
+my_restoran.run()
